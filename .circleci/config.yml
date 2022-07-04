@@ -10,6 +10,14 @@ jobs:
       - checkout
       - ruby/install-deps
       - ruby/rspec-test
+      #  - checkout
+      # - run: bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3
+      # - run: mkdir ~/rspec
+      # - run:
+      #     command: bundle exec rspec --format progress --format RspecJunitFormatter -o ~/rspec/rspec.xml
+      #     when: always
+      # - store_test_results:
+      #     path: ~/rspec
 
 workflows:
   build_and_test_deploy:
