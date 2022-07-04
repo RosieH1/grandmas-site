@@ -12,4 +12,5 @@ gem "sinatra", "~> 2.2"
 
 gem "sinatra-contrib", "~> 2.2"
 
-gem 'rspec_junit_formatter'
+
+gem "rspec_junit_formatter", "~> 0.5.1"
