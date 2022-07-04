@@ -1,1 +1,1 @@
-#Spec file, let's make tests!
+#Spec file, let's make some tests!
